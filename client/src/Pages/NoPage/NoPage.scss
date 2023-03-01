@@ -1,0 +1,28 @@
+.no-page{
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    h1{
+        font-size: 80px;
+        color: #00d1d1;
+    }
+    p{
+        font-size: 16px;
+        color: gray;
+    }
+    a{
+        color: #00d1d1;
+        padding: 10px 30px;
+        background: transparent;
+        border: 1px solid ;
+        border-radius: 5px;
+        
+        &:hover{
+            opacity: .7;
+        }
+    }
+}

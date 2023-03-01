@@ -1,0 +1,21 @@
+.footer {
+    color: #fff;
+    background: #00d1d1;
+
+    * {
+        color: #fff;
+    }
+
+    .logo {
+        color: #fff;
+    }
+
+    .container {
+        font-weight:500;
+        height: 60px;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
