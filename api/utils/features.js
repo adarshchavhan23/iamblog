@@ -6,8 +6,8 @@ exports.sendToken = async (res, code, message, user) => {
     return res.cookie('authToken', token, {
         maxAge: 90 * 24 * 60 * 60 * 1000,
         httpOnly: true,
-        // secure: true,
-        // sameSite: "none"
+        secure: true,
+        sameSite: "none"
     }).send({
         success: true,
         code,
